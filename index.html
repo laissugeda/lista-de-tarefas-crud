@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD teste</title>
+
+</head>
+<body id="body">
+<script src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+        <input type="text" placeholder="Digite uma tafera" id="novaTarefa" class="novaTarefa">
+        <button onclick="ListaTarefas.adicionaTarefa()" class="botao" style="background-color: rgb(124, 57, 124); color: white;">Adicionar</button> 
+        <div id="lua"><input type="image" id="img" src="lua.png" class="imagem" onclick="ListaTarefas.modoNoturno()"></div><br><br>
+        <strong>Tarefas</strong>
+        <p id="contador">Você não possui tarefas</p>
+            <table>
+                    <tbody id="lista"></tbody>
+                    <td><input class="editar" type="hidden" id="editar"></td>
+                    <td><div id="salvar"></div></td>
+            </table>
+</body>
+</html>

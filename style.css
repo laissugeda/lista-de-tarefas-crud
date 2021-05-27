@@ -1,0 +1,49 @@
+p{
+    color: rgb(124, 57, 124);
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+}
+strong{
+    color: plum;
+    font-size: xx-large
+}
+.novaTarefa{
+    background-color: rgb(233, 212, 233);
+    border-radius: 0.5em;
+    height: 3em;
+    width: 30em;
+    font-size: medium;
+    margin-left: auto;
+    cursor: pointer;
+}
+.botao{
+    height: 3em;
+    width: 6em;
+    border-radius: 0.5em;
+    font-size: medium;
+    cursor: pointer;
+
+}
+.lista{
+    height: 3em;
+    width: 50em;
+    color: black;
+    font-size: medium;
+    border-radius: 0.5em;
+    background-color:rgb(199, 199, 199);
+}
+.editar{
+    height: 3em;
+    width: 50em;
+    color: black;
+    font-size: medium;
+    border-radius: 0.5em;
+    background-color:white;
+}
+.imagem{
+    width: 3%;
+    height: 3%;
+    float: right;
+    margin-top: -4em;
+}
